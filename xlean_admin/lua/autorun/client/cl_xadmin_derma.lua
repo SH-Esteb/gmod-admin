@@ -113,12 +113,6 @@ concommand.Add("xlean_admin", function()
             LocalPlayer():ConCommand("ulx rcon _restart")
             Base:Close()
         end)
-
-        XLeanButton("Relancer le serveur", 25, 500, 950, 50, function()
-            LocalPlayer():ConCommand("ulx rcon _restart")
-            Base:Close()
-        end)
-
     end
 end)
 
